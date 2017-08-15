@@ -1,4 +1,3 @@
-REM Portante
 echo "Hunting for Alpha and Bravo connections" 
 :loop  
 for /F "tokens=5" %%a in ('netstat -ano ^| find "192.168.1.66" ') do Taskkill /PID %%a /F /T
