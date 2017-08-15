@@ -1,5 +1,4 @@
 #!/bin/bash
-#Portante
 rm --"$0"
 echo "tcphunter is working"
 while : #loop forever
